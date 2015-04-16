@@ -13,7 +13,6 @@
 		9443A21F1ADF90A900491EE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9443A21E1ADF90A900491EE5 /* Images.xcassets */; };
 		9443A2221ADF90A900491EE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2201ADF90A900491EE5 /* LaunchScreen.xib */; };
 		9443A22E1ADF90AA00491EE5 /* LukasSchmidtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A22D1ADF90AA00491EE5 /* LukasSchmidtTests.swift */; };
-		9443A2391ADF9A1100491EE5 /* Kino-App Icon_7-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2381ADF9A1100491EE5 /* Kino-App Icon_7-01.png */; };
 		9443A23B1ADF9B4D00491EE5 /* Icon 1024px.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A23A1ADF9B4D00491EE5 /* Icon 1024px.png */; };
 		9443A23E1ADFE2D900491EE5 /* IbanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A23D1ADFE2D900491EE5 /* IbanViewController.swift */; };
 		9443A2461ADFE3AA00491EE5 /* LSIBANBLZFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2431ADFE3AA00491EE5 /* LSIBANBLZFormatter.m */; };
@@ -32,6 +31,9 @@
 		9443A2691ADFE8DD00491EE5 /* UIImage+MonoImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2681ADFE8DD00491EE5 /* UIImage+MonoImage.m */; };
 		9443A26C1ADFE8F200491EE5 /* UIColor+IBANColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443A26B1ADFE8F200491EE5 /* UIColor+IBANColors.m */; };
 		9443A26F1ADFEAD800491EE5 /* RoundedCornerImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A26E1ADFEAD800491EE5 /* RoundedCornerImageView.swift */; };
+		9443A2711AE0039200491EE5 /* CinemaManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2701AE0039200491EE5 /* CinemaManagerViewController.swift */; };
+		9443A2731AE0066200491EE5 /* Kino-App Icon_7-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2721AE0066200491EE5 /* Kino-App Icon_7-01.png */; };
+		9443A2751AE0119700491EE5 /* 11-Toy-Story.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2741AE0119700491EE5 /* 11-Toy-Story.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +57,6 @@
 		9443A2271ADF90AA00491EE5 /* LukasSchmidtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LukasSchmidtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9443A22C1ADF90AA00491EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9443A22D1ADF90AA00491EE5 /* LukasSchmidtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LukasSchmidtTests.swift; sourceTree = "<group>"; };
-		9443A2381ADF9A1100491EE5 /* Kino-App Icon_7-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kino-App Icon_7-01.png"; sourceTree = "<group>"; };
 		9443A23A1ADF9B4D00491EE5 /* Icon 1024px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon 1024px.png"; sourceTree = "<group>"; };
 		9443A23D1ADFE2D900491EE5 /* IbanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IbanViewController.swift; sourceTree = "<group>"; };
 		9443A2411ADFE3A900491EE5 /* LukasSchmidt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LukasSchmidt-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -87,6 +88,9 @@
 		9443A26A1ADFE8F200491EE5 /* UIColor+IBANColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+IBANColors.h"; sourceTree = "<group>"; };
 		9443A26B1ADFE8F200491EE5 /* UIColor+IBANColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+IBANColors.m"; sourceTree = "<group>"; };
 		9443A26E1ADFEAD800491EE5 /* RoundedCornerImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundedCornerImageView.swift; path = view/RoundedCornerImageView.swift; sourceTree = "<group>"; };
+		9443A2701AE0039200491EE5 /* CinemaManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemaManagerViewController.swift; sourceTree = "<group>"; };
+		9443A2721AE0066200491EE5 /* Kino-App Icon_7-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kino-App Icon_7-01.png"; sourceTree = "<group>"; };
+		9443A2741AE0119700491EE5 /* 11-Toy-Story.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11-Toy-Story.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,8 +176,9 @@
 		9443A2371ADF996A00491EE5 /* image */ = {
 			isa = PBXGroup;
 			children = (
-				9443A2381ADF9A1100491EE5 /* Kino-App Icon_7-01.png */,
+				9443A2741AE0119700491EE5 /* 11-Toy-Story.jpg */,
 				9443A23A1ADF9B4D00491EE5 /* Icon 1024px.png */,
+				9443A2721AE0066200491EE5 /* Kino-App Icon_7-01.png */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 		9443A23C1ADFE2AF00491EE5 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				9443A2701AE0039200491EE5 /* CinemaManagerViewController.swift */,
 				9443A23D1ADFE2D900491EE5 /* IbanViewController.swift */,
 			);
 			path = controller;
@@ -325,12 +331,13 @@
 			files = (
 				9443A24C1ADFE3EE00491EE5 /* blz_bic_list.plist in Resources */,
 				9443A21D1ADF90A900491EE5 /* Main.storyboard in Resources */,
-				9443A2391ADF9A1100491EE5 /* Kino-App Icon_7-01.png in Resources */,
 				9443A2221ADF90A900491EE5 /* LaunchScreen.xib in Resources */,
 				9443A21F1ADF90A900491EE5 /* Images.xcassets in Resources */,
 				9443A24B1ADFE3EE00491EE5 /* CountryNames.plist in Resources */,
+				9443A2731AE0066200491EE5 /* Kino-App Icon_7-01.png in Resources */,
 				9443A24D1ADFE3EE00491EE5 /* CountryCodes.plist in Resources */,
 				9443A23B1ADF9B4D00491EE5 /* Icon 1024px.png in Resources */,
+				9443A2751AE0119700491EE5 /* 11-Toy-Story.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +365,7 @@
 				9443A2501ADFE50400491EE5 /* LSCountryCodeManager.m in Sources */,
 				9443A2691ADFE8DD00491EE5 /* UIImage+MonoImage.m in Sources */,
 				9443A2661ADFE8BF00491EE5 /* LSBackgroundView.m in Sources */,
+				9443A2711AE0039200491EE5 /* CinemaManagerViewController.swift in Sources */,
 				9443A2611ADFE8BF00491EE5 /* LSRoundButton.m in Sources */,
 				9443A2461ADFE3AA00491EE5 /* LSIBANBLZFormatter.m in Sources */,
 				9443A26C1ADFE8F200491EE5 /* UIColor+IBANColors.m in Sources */,
