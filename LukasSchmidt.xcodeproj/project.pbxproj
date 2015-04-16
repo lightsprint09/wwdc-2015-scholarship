@@ -31,6 +31,7 @@
 		9443A2661ADFE8BF00491EE5 /* LSBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443A25F1ADFE8BF00491EE5 /* LSBackgroundView.m */; };
 		9443A2691ADFE8DD00491EE5 /* UIImage+MonoImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2681ADFE8DD00491EE5 /* UIImage+MonoImage.m */; };
 		9443A26C1ADFE8F200491EE5 /* UIColor+IBANColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443A26B1ADFE8F200491EE5 /* UIColor+IBANColors.m */; };
+		9443A26F1ADFEAD800491EE5 /* RoundedCornerImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A26E1ADFEAD800491EE5 /* RoundedCornerImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		9443A2681ADFE8DD00491EE5 /* UIImage+MonoImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MonoImage.m"; sourceTree = "<group>"; };
 		9443A26A1ADFE8F200491EE5 /* UIColor+IBANColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+IBANColors.h"; sourceTree = "<group>"; };
 		9443A26B1ADFE8F200491EE5 /* UIColor+IBANColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+IBANColors.m"; sourceTree = "<group>"; };
+		9443A26E1ADFEAD800491EE5 /* RoundedCornerImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundedCornerImageView.swift; path = view/RoundedCornerImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		9443A2111ADF90A900491EE5 /* LukasSchmidt */ = {
 			isa = PBXGroup;
 			children = (
+				9443A26D1ADFEAA600491EE5 /* view */,
 				9443A2401ADFE2F800491EE5 /* cinema */,
 				9443A23F1ADFE2EF00491EE5 /* iban */,
 				9443A23C1ADFE2AF00491EE5 /* controller */,
@@ -199,7 +202,7 @@
 				9443A2441ADFE3AA00491EE5 /* MSIbanCalculator.h */,
 				9443A2451ADFE3AA00491EE5 /* MSIbanCalculator.m */,
 			);
-			name = iban;
+			path = iban;
 			sourceTree = "<group>";
 		};
 		9443A2401ADFE2F800491EE5 /* cinema */ = {
@@ -228,6 +231,14 @@
 				9443A25D1ADFE8BF00491EE5 /* LSIBANRoundDevidedButton.m */,
 				9443A25E1ADFE8BF00491EE5 /* LSBackgroundView.h */,
 				9443A25F1ADFE8BF00491EE5 /* LSBackgroundView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		9443A26D1ADFEAA600491EE5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				9443A26E1ADFEAD800491EE5 /* RoundedCornerImageView.swift */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -352,6 +363,7 @@
 				9443A26C1ADFE8F200491EE5 /* UIColor+IBANColors.m in Sources */,
 				9443A2641ADFE8BF00491EE5 /* LSRoundDevidedButton.m in Sources */,
 				9443A2471ADFE3AA00491EE5 /* MSIbanCalculator.m in Sources */,
+				9443A26F1ADFEAD800491EE5 /* RoundedCornerImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

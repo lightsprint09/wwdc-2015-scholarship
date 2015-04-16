@@ -412,7 +412,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rJQ-6I-XOS" customClass="LSBackgroundView">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="352"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="BLZ" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="fzq-c6-EDu" userLabel="bankCodeTextField" customClass="LSRoundTextField">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="bank code" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="fzq-c6-EDu" userLabel="bankCodeTextField" customClass="LSRoundTextField">
                                         <rect key="frame" x="21" y="109" width="511" height="44"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <constraints>
@@ -421,7 +421,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad" returnKeyType="done"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Kontonummer" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8iO-oc-Epi" userLabel="accountNumberTextField" customClass="LSRoundTextField">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="account number" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8iO-oc-Epi" userLabel="accountNumberTextField" customClass="LSRoundTextField">
                                         <rect key="frame" x="21" y="44" width="511" height="44"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <constraints>
@@ -477,6 +477,9 @@
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                            <rect key="frame" x="14" y="290" width="250" height="48"/>
+                                        </variation>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kp-mH-eMB" customClass="LSSettingsButton">
                                         <rect key="frame" x="548" y="44" width="44" height="44"/>
@@ -485,20 +488,6 @@
                                             <constraint firstAttribute="width" constant="44" id="SiN-ix-cyr"/>
                                             <constraint firstAttribute="height" constant="44" id="huS-SC-Ozg"/>
                                         </constraints>
-                                        <state key="normal">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="highlighted">
-                                            <color key="titleColor" red="0.83137254900000002" green="0.1137254902" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3N-5B-GnG" customClass="LSRoundButton">
-                                        <rect key="frame" x="548" y="109" width="44" height="44"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="44" id="hza-Ma-8Mx"/>
-                                            <constraint firstAttribute="width" constant="44" id="sQa-lp-sCX"/>
-                                        </constraints>
                                         <state key="normal" title="DE">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -506,14 +495,20 @@
                                             <color key="titleColor" red="0.83137254900000002" green="0.1137254902" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
-                                    <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ug3-hn-EQ3" customClass="LSIBANRoundDevidedButton">
-                                        <rect key="frame" x="472" y="290" width="120" height="48"/>
-                                        <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3N-5B-GnG" customClass="LSRoundButton">
+                                        <rect key="frame" x="548" y="109" width="44" height="44"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="48" id="39P-Yx-XCc"/>
-                                            <constraint firstAttribute="width" constant="120" id="Rv0-QD-S85"/>
+                                            <constraint firstAttribute="height" constant="44" id="hza-Ma-8Mx"/>
+                                            <constraint firstAttribute="width" constant="44" id="sQa-lp-sCX"/>
                                         </constraints>
-                                    </view>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" red="0.83137254900000002" green="0.1137254902" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <gestureRecognizers/>
@@ -527,19 +522,15 @@
                                     <constraint firstAttribute="height" constant="352" id="LBA-uu-4VP">
                                         <variation key="widthClass=compact" constant="200"/>
                                     </constraint>
-                                    <constraint firstItem="aPg-NO-t31" firstAttribute="top" secondItem="ug3-hn-EQ3" secondAttribute="top" id="LtR-zV-cWm"/>
                                     <constraint firstItem="aPg-NO-t31" firstAttribute="leading" secondItem="rJQ-6I-XOS" secondAttribute="leading" constant="14" id="PjP-gu-MO9"/>
                                     <constraint firstItem="J1H-DT-hHH" firstAttribute="leading" secondItem="rJQ-6I-XOS" secondAttribute="leading" constant="14" id="Szn-ox-rug"/>
                                     <constraint firstItem="J1H-DT-hHH" firstAttribute="top" secondItem="rJQ-6I-XOS" secondAttribute="top" constant="272" id="Tbn-Y1-urN"/>
                                     <constraint firstItem="Twa-3K-qST" firstAttribute="leading" secondItem="rJQ-6I-XOS" secondAttribute="leading" constant="14" id="Tpg-rS-hLO"/>
                                     <constraint firstItem="fzq-c6-EDu" firstAttribute="leading" secondItem="rJQ-6I-XOS" secondAttribute="leading" constant="21" id="Zhg-p2-roj"/>
-                                    <constraint firstAttribute="trailing" secondItem="ug3-hn-EQ3" secondAttribute="trailing" constant="8" id="Zon-TH-PRn"/>
                                     <constraint firstItem="8iO-oc-Epi" firstAttribute="top" secondItem="rJQ-6I-XOS" secondAttribute="top" constant="44" id="e0J-Dp-UcG"/>
                                     <constraint firstAttribute="trailing" secondItem="Twa-3K-qST" secondAttribute="trailing" constant="8" id="ewQ-cE-x5y"/>
-                                    <constraint firstItem="ug3-hn-EQ3" firstAttribute="top" secondItem="rJQ-6I-XOS" secondAttribute="top" constant="290" id="iDN-Mz-aq6"/>
                                     <constraint firstItem="8iO-oc-Epi" firstAttribute="leading" secondItem="rJQ-6I-XOS" secondAttribute="leading" constant="21" id="jvJ-8t-GSw"/>
                                     <constraint firstItem="c3N-5B-GnG" firstAttribute="top" secondItem="fzq-c6-EDu" secondAttribute="top" id="kQA-vX-e0S"/>
-                                    <constraint firstItem="ug3-hn-EQ3" firstAttribute="leading" secondItem="aPg-NO-t31" secondAttribute="trailing" constant="8" id="pHT-Dt-u2X"/>
                                     <constraint firstItem="c3N-5B-GnG" firstAttribute="leading" secondItem="fzq-c6-EDu" secondAttribute="trailing" constant="16" id="s2Z-Fd-Sin"/>
                                     <constraint firstAttribute="trailing" secondItem="0kp-mH-eMB" secondAttribute="trailing" constant="8" id="wqV-mN-fTA"/>
                                     <constraint firstAttribute="trailing" secondItem="c3N-5B-GnG" secondAttribute="trailing" constant="8" id="x3s-3V-YDm"/>
