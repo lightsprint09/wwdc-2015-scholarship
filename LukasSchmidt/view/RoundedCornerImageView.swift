@@ -9,6 +9,15 @@
 import UIKit
 
 class RoundedCornerImageView: UIImageView {
+    
+    override func awakeFromNib() {
+        setup()
+    }
+    
+    func setup() {
+        layer.cornerRadius = 10
+        layer.masksToBounds = true
+    }
 
     /*
     // Only override drawRect: if you perform custom drawing.

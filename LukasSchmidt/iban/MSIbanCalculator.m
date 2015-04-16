@@ -41,11 +41,19 @@
 {
     self.incorrectAccountNumber = NO;
     self.incorrectBankCode = NO;
+    if([self hasEmptyData]) {
+        return @"";
+    }
     NSString *blzFull = [self blzFullOutputWithBlz:blz fromCountryCode:countryCode];
     NSString *accountNumberFull = [self accountNumberFullOutputWithBlz:accountnumber fromCountryCode:countryCode];
     NSString *checksumString  = [self returnChecksumForAllCasesWithBlz:blz accountnumber:accountnumber countryCode:countryCode];
     
     return [NSString stringWithFormat:@"%@%@%@%@", countryCode, checksumString, blzFull, accountNumberFull];
+}
+
+- (BOOL)hasEmptyData
+{
+    return [self.accountNumber isEqualToString:@""] || [self.blz isEqualToString:@""];
 }
 
 - (NSString *)getInfoFromBlz:(NSString *)blz

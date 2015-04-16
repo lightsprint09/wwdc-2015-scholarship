@@ -9,10 +9,16 @@
 import UIKit
 
 class IbanViewController: UIViewController {
+    
+    let ibanCalculator = MSIbanCalculator(widthCountryCodeManager: LSCountryCodeManager())
 
+    @IBOutlet weak var accountNumberTextField: UITextField!
+    @IBOutlet weak var bankCodeTextField: UITextField!
+    
+    @IBOutlet weak var ibanLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        println("iban load")
+        updateIBAN()
 
         // Do any additional setup after loading the view.
     }
@@ -22,7 +28,27 @@ class IbanViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func dismissController(sender: AnyObject) {
+        presentingViewController?.dismissViewControllerAnimated(true, completion: nil)
+    }
+    @IBAction func onAccountNumberCahnge(sender: UITextField) {
+        ibanCalculator.accountNumber = sender.text
+        updateIBAN()
+    }
 
+    @IBAction func onBankCodeChange(sender: UITextField) {
+        ibanCalculator.blz = sender.text;
+        updateIBAN()
+    }
+    
+    func updateIBAN() {
+        ibanLabel.text = ibanCalculator.iban
+    }
+    
+    @IBAction func dismissKeyboard(sender: AnyObject) {
+        accountNumberTextField.resignFirstResponder()
+        bankCodeTextField.resignFirstResponder()
+    }
     /*
     // MARK: - Navigation
 
