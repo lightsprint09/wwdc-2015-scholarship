@@ -34,6 +34,7 @@
 		9443A2711AE0039200491EE5 /* CinemaManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2701AE0039200491EE5 /* CinemaManagerViewController.swift */; };
 		9443A2731AE0066200491EE5 /* Kino-App Icon_7-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2721AE0066200491EE5 /* Kino-App Icon_7-01.png */; };
 		9443A2751AE0119700491EE5 /* 11-Toy-Story.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2741AE0119700491EE5 /* 11-Toy-Story.jpg */; };
+		9443A2781AE02B8D00491EE5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9443A2761AE02B5800491EE5 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		9443A2701AE0039200491EE5 /* CinemaManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemaManagerViewController.swift; sourceTree = "<group>"; };
 		9443A2721AE0066200491EE5 /* Kino-App Icon_7-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kino-App Icon_7-01.png"; sourceTree = "<group>"; };
 		9443A2741AE0119700491EE5 /* 11-Toy-Story.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11-Toy-Story.jpg"; sourceTree = "<group>"; };
+		9443A2761AE02B5800491EE5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9443A2781AE02B8D00491EE5 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +117,7 @@
 		9443A2061ADF90A900491EE5 = {
 			isa = PBXGroup;
 			children = (
+				9443A2761AE02B5800491EE5 /* StoreKit.framework */,
 				9443A2111ADF90A900491EE5 /* LukasSchmidt */,
 				9443A22A1ADF90AA00491EE5 /* LukasSchmidtTests */,
 				9443A2101ADF90A900491EE5 /* Products */,

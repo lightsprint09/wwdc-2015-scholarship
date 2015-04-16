@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import StoreKit
 
 class IbanViewController: UIViewController {
     
@@ -49,14 +50,14 @@ class IbanViewController: UIViewController {
         accountNumberTextField.resignFirstResponder()
         bankCodeTextField.resignFirstResponder()
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func showInAppStore(sender: AnyObject) {
+       let productViewController = SKStoreProductViewController()
+        productViewController.loadProductWithParameters([SKStoreProductParameterITunesItemIdentifier: NSNumber()], completionBlock: didLoadStoreKitProcut)
+        presentViewController(productViewController, animated: true, completion: nil)
     }
-    */
+    
+    func didLoadStoreKitProcut(success:Bool, error:NSError!) {
+        
+    }
 
 }
