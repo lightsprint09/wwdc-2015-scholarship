@@ -9,11 +9,28 @@
 /* Begin PBXBuildFile section */
 		9443A2151ADF90A900491EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2141ADF90A900491EE5 /* AppDelegate.swift */; };
 		9443A2181ADF90A900491EE5 /* LukasSchmidt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2161ADF90A900491EE5 /* LukasSchmidt.xcdatamodeld */; };
-		9443A21A1ADF90A900491EE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2191ADF90A900491EE5 /* ViewController.swift */; };
 		9443A21D1ADF90A900491EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9443A21B1ADF90A900491EE5 /* Main.storyboard */; };
 		9443A21F1ADF90A900491EE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9443A21E1ADF90A900491EE5 /* Images.xcassets */; };
 		9443A2221ADF90A900491EE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2201ADF90A900491EE5 /* LaunchScreen.xib */; };
 		9443A22E1ADF90AA00491EE5 /* LukasSchmidtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A22D1ADF90AA00491EE5 /* LukasSchmidtTests.swift */; };
+		9443A2391ADF9A1100491EE5 /* Kino-App Icon_7-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2381ADF9A1100491EE5 /* Kino-App Icon_7-01.png */; };
+		9443A23B1ADF9B4D00491EE5 /* Icon 1024px.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A23A1ADF9B4D00491EE5 /* Icon 1024px.png */; };
+		9443A23E1ADFE2D900491EE5 /* IbanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A23D1ADFE2D900491EE5 /* IbanViewController.swift */; };
+		9443A2461ADFE3AA00491EE5 /* LSIBANBLZFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2431ADFE3AA00491EE5 /* LSIBANBLZFormatter.m */; };
+		9443A2471ADFE3AA00491EE5 /* MSIbanCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2451ADFE3AA00491EE5 /* MSIbanCalculator.m */; };
+		9443A24B1ADFE3EE00491EE5 /* CountryNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2481ADFE3EE00491EE5 /* CountryNames.plist */; };
+		9443A24C1ADFE3EE00491EE5 /* blz_bic_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2491ADFE3EE00491EE5 /* blz_bic_list.plist */; };
+		9443A24D1ADFE3EE00491EE5 /* CountryCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9443A24A1ADFE3EE00491EE5 /* CountryCodes.plist */; };
+		9443A2501ADFE50400491EE5 /* LSCountryCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443A24F1ADFE50400491EE5 /* LSCountryCodeManager.m */; };
+		9443A2601ADFE8BF00491EE5 /* LSSettingsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2531ADFE8BF00491EE5 /* LSSettingsButton.m */; };
+		9443A2611ADFE8BF00491EE5 /* LSRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2551ADFE8BF00491EE5 /* LSRoundButton.m */; };
+		9443A2621ADFE8BF00491EE5 /* LSRoundLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2571ADFE8BF00491EE5 /* LSRoundLabel.m */; };
+		9443A2631ADFE8BF00491EE5 /* LSRoundTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2591ADFE8BF00491EE5 /* LSRoundTextField.m */; };
+		9443A2641ADFE8BF00491EE5 /* LSRoundDevidedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443A25B1ADFE8BF00491EE5 /* LSRoundDevidedButton.m */; };
+		9443A2651ADFE8BF00491EE5 /* LSIBANRoundDevidedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443A25D1ADFE8BF00491EE5 /* LSIBANRoundDevidedButton.m */; };
+		9443A2661ADFE8BF00491EE5 /* LSBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443A25F1ADFE8BF00491EE5 /* LSBackgroundView.m */; };
+		9443A2691ADFE8DD00491EE5 /* UIImage+MonoImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2681ADFE8DD00491EE5 /* UIImage+MonoImage.m */; };
+		9443A26C1ADFE8F200491EE5 /* UIColor+IBANColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9443A26B1ADFE8F200491EE5 /* UIColor+IBANColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +48,43 @@
 		9443A2131ADF90A900491EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9443A2141ADF90A900491EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9443A2171ADF90A900491EE5 /* LukasSchmidt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LukasSchmidt.xcdatamodel; sourceTree = "<group>"; };
-		9443A2191ADF90A900491EE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9443A21C1ADF90A900491EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9443A21E1ADF90A900491EE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9443A2211ADF90A900491EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9443A2271ADF90AA00491EE5 /* LukasSchmidtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LukasSchmidtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9443A22C1ADF90AA00491EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9443A22D1ADF90AA00491EE5 /* LukasSchmidtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LukasSchmidtTests.swift; sourceTree = "<group>"; };
+		9443A2381ADF9A1100491EE5 /* Kino-App Icon_7-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kino-App Icon_7-01.png"; sourceTree = "<group>"; };
+		9443A23A1ADF9B4D00491EE5 /* Icon 1024px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon 1024px.png"; sourceTree = "<group>"; };
+		9443A23D1ADFE2D900491EE5 /* IbanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IbanViewController.swift; sourceTree = "<group>"; };
+		9443A2411ADFE3A900491EE5 /* LukasSchmidt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LukasSchmidt-Bridging-Header.h"; sourceTree = "<group>"; };
+		9443A2421ADFE3AA00491EE5 /* LSIBANBLZFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSIBANBLZFormatter.h; sourceTree = "<group>"; };
+		9443A2431ADFE3AA00491EE5 /* LSIBANBLZFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSIBANBLZFormatter.m; sourceTree = "<group>"; };
+		9443A2441ADFE3AA00491EE5 /* MSIbanCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSIbanCalculator.h; sourceTree = "<group>"; };
+		9443A2451ADFE3AA00491EE5 /* MSIbanCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSIbanCalculator.m; sourceTree = "<group>"; };
+		9443A2481ADFE3EE00491EE5 /* CountryNames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CountryNames.plist; sourceTree = "<group>"; };
+		9443A2491ADFE3EE00491EE5 /* blz_bic_list.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = blz_bic_list.plist; sourceTree = "<group>"; };
+		9443A24A1ADFE3EE00491EE5 /* CountryCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CountryCodes.plist; sourceTree = "<group>"; };
+		9443A24E1ADFE50400491EE5 /* LSCountryCodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCountryCodeManager.h; sourceTree = "<group>"; };
+		9443A24F1ADFE50400491EE5 /* LSCountryCodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSCountryCodeManager.m; sourceTree = "<group>"; };
+		9443A2521ADFE8BF00491EE5 /* LSSettingsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSSettingsButton.h; sourceTree = "<group>"; };
+		9443A2531ADFE8BF00491EE5 /* LSSettingsButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSSettingsButton.m; sourceTree = "<group>"; };
+		9443A2541ADFE8BF00491EE5 /* LSRoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSRoundButton.h; sourceTree = "<group>"; };
+		9443A2551ADFE8BF00491EE5 /* LSRoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSRoundButton.m; sourceTree = "<group>"; };
+		9443A2561ADFE8BF00491EE5 /* LSRoundLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSRoundLabel.h; sourceTree = "<group>"; };
+		9443A2571ADFE8BF00491EE5 /* LSRoundLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSRoundLabel.m; sourceTree = "<group>"; };
+		9443A2581ADFE8BF00491EE5 /* LSRoundTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSRoundTextField.h; sourceTree = "<group>"; };
+		9443A2591ADFE8BF00491EE5 /* LSRoundTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSRoundTextField.m; sourceTree = "<group>"; };
+		9443A25A1ADFE8BF00491EE5 /* LSRoundDevidedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSRoundDevidedButton.h; sourceTree = "<group>"; };
+		9443A25B1ADFE8BF00491EE5 /* LSRoundDevidedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSRoundDevidedButton.m; sourceTree = "<group>"; };
+		9443A25C1ADFE8BF00491EE5 /* LSIBANRoundDevidedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSIBANRoundDevidedButton.h; sourceTree = "<group>"; };
+		9443A25D1ADFE8BF00491EE5 /* LSIBANRoundDevidedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSIBANRoundDevidedButton.m; sourceTree = "<group>"; };
+		9443A25E1ADFE8BF00491EE5 /* LSBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSBackgroundView.h; sourceTree = "<group>"; };
+		9443A25F1ADFE8BF00491EE5 /* LSBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSBackgroundView.m; sourceTree = "<group>"; };
+		9443A2671ADFE8DD00491EE5 /* UIImage+MonoImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MonoImage.h"; sourceTree = "<group>"; };
+		9443A2681ADFE8DD00491EE5 /* UIImage+MonoImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MonoImage.m"; sourceTree = "<group>"; };
+		9443A26A1ADFE8F200491EE5 /* UIColor+IBANColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+IBANColors.h"; sourceTree = "<group>"; };
+		9443A26B1ADFE8F200491EE5 /* UIColor+IBANColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+IBANColors.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +126,10 @@
 		9443A2111ADF90A900491EE5 /* LukasSchmidt */ = {
 			isa = PBXGroup;
 			children = (
+				9443A2401ADFE2F800491EE5 /* cinema */,
+				9443A23F1ADFE2EF00491EE5 /* iban */,
+				9443A23C1ADFE2AF00491EE5 /* controller */,
 				9443A2141ADF90A900491EE5 /* AppDelegate.swift */,
-				9443A2191ADF90A900491EE5 /* ViewController.swift */,
 				9443A21B1ADF90A900491EE5 /* Main.storyboard */,
 				9443A21E1ADF90A900491EE5 /* Images.xcassets */,
 				9443A2201ADF90A900491EE5 /* LaunchScreen.xib */,
@@ -93,6 +142,8 @@
 		9443A2121ADF90A900491EE5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9443A2411ADFE3A900491EE5 /* LukasSchmidt-Bridging-Header.h */,
+				9443A2371ADF996A00491EE5 /* image */,
 				9443A2131ADF90A900491EE5 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -113,6 +164,72 @@
 				9443A22C1ADF90AA00491EE5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9443A2371ADF996A00491EE5 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				9443A2381ADF9A1100491EE5 /* Kino-App Icon_7-01.png */,
+				9443A23A1ADF9B4D00491EE5 /* Icon 1024px.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		9443A23C1ADFE2AF00491EE5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				9443A23D1ADFE2D900491EE5 /* IbanViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		9443A23F1ADFE2EF00491EE5 /* iban */ = {
+			isa = PBXGroup;
+			children = (
+				9443A26A1ADFE8F200491EE5 /* UIColor+IBANColors.h */,
+				9443A26B1ADFE8F200491EE5 /* UIColor+IBANColors.m */,
+				9443A2511ADFE8B500491EE5 /* view */,
+				9443A24E1ADFE50400491EE5 /* LSCountryCodeManager.h */,
+				9443A24F1ADFE50400491EE5 /* LSCountryCodeManager.m */,
+				9443A2481ADFE3EE00491EE5 /* CountryNames.plist */,
+				9443A2491ADFE3EE00491EE5 /* blz_bic_list.plist */,
+				9443A24A1ADFE3EE00491EE5 /* CountryCodes.plist */,
+				9443A2421ADFE3AA00491EE5 /* LSIBANBLZFormatter.h */,
+				9443A2431ADFE3AA00491EE5 /* LSIBANBLZFormatter.m */,
+				9443A2441ADFE3AA00491EE5 /* MSIbanCalculator.h */,
+				9443A2451ADFE3AA00491EE5 /* MSIbanCalculator.m */,
+			);
+			name = iban;
+			sourceTree = "<group>";
+		};
+		9443A2401ADFE2F800491EE5 /* cinema */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = cinema;
+			sourceTree = "<group>";
+		};
+		9443A2511ADFE8B500491EE5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				9443A2671ADFE8DD00491EE5 /* UIImage+MonoImage.h */,
+				9443A2681ADFE8DD00491EE5 /* UIImage+MonoImage.m */,
+				9443A2521ADFE8BF00491EE5 /* LSSettingsButton.h */,
+				9443A2531ADFE8BF00491EE5 /* LSSettingsButton.m */,
+				9443A2541ADFE8BF00491EE5 /* LSRoundButton.h */,
+				9443A2551ADFE8BF00491EE5 /* LSRoundButton.m */,
+				9443A2561ADFE8BF00491EE5 /* LSRoundLabel.h */,
+				9443A2571ADFE8BF00491EE5 /* LSRoundLabel.m */,
+				9443A2581ADFE8BF00491EE5 /* LSRoundTextField.h */,
+				9443A2591ADFE8BF00491EE5 /* LSRoundTextField.m */,
+				9443A25A1ADFE8BF00491EE5 /* LSRoundDevidedButton.h */,
+				9443A25B1ADFE8BF00491EE5 /* LSRoundDevidedButton.m */,
+				9443A25C1ADFE8BF00491EE5 /* LSIBANRoundDevidedButton.h */,
+				9443A25D1ADFE8BF00491EE5 /* LSIBANRoundDevidedButton.m */,
+				9443A25E1ADFE8BF00491EE5 /* LSBackgroundView.h */,
+				9443A25F1ADFE8BF00491EE5 /* LSBackgroundView.m */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,9 +312,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9443A24C1ADFE3EE00491EE5 /* blz_bic_list.plist in Resources */,
 				9443A21D1ADF90A900491EE5 /* Main.storyboard in Resources */,
+				9443A2391ADF9A1100491EE5 /* Kino-App Icon_7-01.png in Resources */,
 				9443A2221ADF90A900491EE5 /* LaunchScreen.xib in Resources */,
 				9443A21F1ADF90A900491EE5 /* Images.xcassets in Resources */,
+				9443A24B1ADFE3EE00491EE5 /* CountryNames.plist in Resources */,
+				9443A24D1ADFE3EE00491EE5 /* CountryCodes.plist in Resources */,
+				9443A23B1ADF9B4D00491EE5 /* Icon 1024px.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +337,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9443A21A1ADF90A900491EE5 /* ViewController.swift in Sources */,
+				9443A2601ADFE8BF00491EE5 /* LSSettingsButton.m in Sources */,
+				9443A23E1ADFE2D900491EE5 /* IbanViewController.swift in Sources */,
 				9443A2151ADF90A900491EE5 /* AppDelegate.swift in Sources */,
+				9443A2651ADFE8BF00491EE5 /* LSIBANRoundDevidedButton.m in Sources */,
 				9443A2181ADF90A900491EE5 /* LukasSchmidt.xcdatamodeld in Sources */,
+				9443A2621ADFE8BF00491EE5 /* LSRoundLabel.m in Sources */,
+				9443A2631ADFE8BF00491EE5 /* LSRoundTextField.m in Sources */,
+				9443A2501ADFE50400491EE5 /* LSCountryCodeManager.m in Sources */,
+				9443A2691ADFE8DD00491EE5 /* UIImage+MonoImage.m in Sources */,
+				9443A2661ADFE8BF00491EE5 /* LSBackgroundView.m in Sources */,
+				9443A2611ADFE8BF00491EE5 /* LSRoundButton.m in Sources */,
+				9443A2461ADFE3AA00491EE5 /* LSIBANBLZFormatter.m in Sources */,
+				9443A26C1ADFE8F200491EE5 /* UIColor+IBANColors.m in Sources */,
+				9443A2641ADFE8BF00491EE5 /* LSRoundDevidedButton.m in Sources */,
+				9443A2471ADFE3AA00491EE5 /* MSIbanCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,9 +480,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LukasSchmidt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LukasSchmidt/LukasSchmidt-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -356,9 +494,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LukasSchmidt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LukasSchmidt/LukasSchmidt-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -415,6 +556,7 @@
 				9443A2331ADF90AA00491EE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9443A2341ADF90AA00491EE5 /* Build configuration list for PBXNativeTarget "LukasSchmidtTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +565,7 @@
 				9443A2361ADF90AA00491EE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
