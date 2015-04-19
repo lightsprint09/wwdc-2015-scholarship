@@ -35,6 +35,16 @@
 		9443A2731AE0066200491EE5 /* Kino-App Icon_7-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2721AE0066200491EE5 /* Kino-App Icon_7-01.png */; };
 		9443A2751AE0119700491EE5 /* 11-Toy-Story.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2741AE0119700491EE5 /* 11-Toy-Story.jpg */; };
 		9443A2781AE02B8D00491EE5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9443A2761AE02B5800491EE5 /* StoreKit.framework */; };
+		9443A27C1AE03EC800491EE5 /* icon-ios7-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2791AE03EC800491EE5 /* icon-ios7-heart.png */; };
+		9443A27D1AE03EC800491EE5 /* icon-ios7-heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A27A1AE03EC800491EE5 /* icon-ios7-heart@2x.png */; };
+		9443A27E1AE03EC800491EE5 /* icon-ios7-heart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A27B1AE03EC800491EE5 /* icon-ios7-heart@3x.png */; };
+		9443A2801AE2608D00491EE5 /* PersonalInterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A27F1AE2608D00491EE5 /* PersonalInterestsViewController.swift */; };
+		9443A2821AE266A600491EE5 /* code.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2811AE266A600491EE5 /* code.png */; };
+		9443A2881AE3DD8700491EE5 /* RoundCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2871AE3DD8700491EE5 /* RoundCornerView.swift */; };
+		9443A28A1AE3DF8A00491EE5 /* TrackField.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2891AE3DF8A00491EE5 /* TrackField.png */; };
+		9443A28C1AE3E3CE00491EE5 /* ehealth.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A28B1AE3E3CE00491EE5 /* ehealth.png */; };
+		9443A28E1AE3E4D300491EE5 /* cinema.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A28D1AE3E4D300491EE5 /* cinema.png */; };
+		9443A2901AE3F88700491EE5 /* personal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A28F1AE3F88700491EE5 /* personal.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +103,16 @@
 		9443A2721AE0066200491EE5 /* Kino-App Icon_7-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kino-App Icon_7-01.png"; sourceTree = "<group>"; };
 		9443A2741AE0119700491EE5 /* 11-Toy-Story.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11-Toy-Story.jpg"; sourceTree = "<group>"; };
 		9443A2761AE02B5800491EE5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		9443A2791AE03EC800491EE5 /* icon-ios7-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-heart.png"; sourceTree = "<group>"; };
+		9443A27A1AE03EC800491EE5 /* icon-ios7-heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-heart@2x.png"; sourceTree = "<group>"; };
+		9443A27B1AE03EC800491EE5 /* icon-ios7-heart@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-heart@3x.png"; sourceTree = "<group>"; };
+		9443A27F1AE2608D00491EE5 /* PersonalInterestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInterestsViewController.swift; sourceTree = "<group>"; };
+		9443A2811AE266A600491EE5 /* code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = code.png; sourceTree = "<group>"; };
+		9443A2871AE3DD8700491EE5 /* RoundCornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundCornerView.swift; path = view/RoundCornerView.swift; sourceTree = "<group>"; };
+		9443A2891AE3DF8A00491EE5 /* TrackField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrackField.png; sourceTree = "<group>"; };
+		9443A28B1AE3E3CE00491EE5 /* ehealth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ehealth.png; sourceTree = "<group>"; };
+		9443A28D1AE3E4D300491EE5 /* cinema.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cinema.png; sourceTree = "<group>"; };
+		9443A28F1AE3F88700491EE5 /* personal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personal.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +200,14 @@
 		9443A2371ADF996A00491EE5 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				9443A28F1AE3F88700491EE5 /* personal.png */,
+				9443A28D1AE3E4D300491EE5 /* cinema.png */,
+				9443A28B1AE3E3CE00491EE5 /* ehealth.png */,
+				9443A2891AE3DF8A00491EE5 /* TrackField.png */,
+				9443A2811AE266A600491EE5 /* code.png */,
+				9443A2791AE03EC800491EE5 /* icon-ios7-heart.png */,
+				9443A27A1AE03EC800491EE5 /* icon-ios7-heart@2x.png */,
+				9443A27B1AE03EC800491EE5 /* icon-ios7-heart@3x.png */,
 				9443A2741AE0119700491EE5 /* 11-Toy-Story.jpg */,
 				9443A23A1ADF9B4D00491EE5 /* Icon 1024px.png */,
 				9443A2721AE0066200491EE5 /* Kino-App Icon_7-01.png */,
@@ -190,6 +218,7 @@
 		9443A23C1ADFE2AF00491EE5 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				9443A27F1AE2608D00491EE5 /* PersonalInterestsViewController.swift */,
 				9443A2701AE0039200491EE5 /* CinemaManagerViewController.swift */,
 				9443A23D1ADFE2D900491EE5 /* IbanViewController.swift */,
 			);
@@ -249,6 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				9443A26E1ADFEAD800491EE5 /* RoundedCornerImageView.swift */,
+				9443A2871AE3DD8700491EE5 /* RoundCornerView.swift */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -333,12 +363,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9443A27D1AE03EC800491EE5 /* icon-ios7-heart@2x.png in Resources */,
 				9443A24C1ADFE3EE00491EE5 /* blz_bic_list.plist in Resources */,
 				9443A21D1ADF90A900491EE5 /* Main.storyboard in Resources */,
 				9443A2221ADF90A900491EE5 /* LaunchScreen.xib in Resources */,
 				9443A21F1ADF90A900491EE5 /* Images.xcassets in Resources */,
+				9443A27E1AE03EC800491EE5 /* icon-ios7-heart@3x.png in Resources */,
 				9443A24B1ADFE3EE00491EE5 /* CountryNames.plist in Resources */,
+				9443A28C1AE3E3CE00491EE5 /* ehealth.png in Resources */,
+				9443A27C1AE03EC800491EE5 /* icon-ios7-heart.png in Resources */,
+				9443A2821AE266A600491EE5 /* code.png in Resources */,
+				9443A28E1AE3E4D300491EE5 /* cinema.png in Resources */,
 				9443A2731AE0066200491EE5 /* Kino-App Icon_7-01.png in Resources */,
+				9443A2901AE3F88700491EE5 /* personal.png in Resources */,
+				9443A28A1AE3DF8A00491EE5 /* TrackField.png in Resources */,
 				9443A24D1ADFE3EE00491EE5 /* CountryCodes.plist in Resources */,
 				9443A23B1ADF9B4D00491EE5 /* Icon 1024px.png in Resources */,
 				9443A2751AE0119700491EE5 /* 11-Toy-Story.jpg in Resources */,
@@ -365,12 +403,14 @@
 				9443A2651ADFE8BF00491EE5 /* LSIBANRoundDevidedButton.m in Sources */,
 				9443A2181ADF90A900491EE5 /* LukasSchmidt.xcdatamodeld in Sources */,
 				9443A2621ADFE8BF00491EE5 /* LSRoundLabel.m in Sources */,
+				9443A2801AE2608D00491EE5 /* PersonalInterestsViewController.swift in Sources */,
 				9443A2631ADFE8BF00491EE5 /* LSRoundTextField.m in Sources */,
 				9443A2501ADFE50400491EE5 /* LSCountryCodeManager.m in Sources */,
 				9443A2691ADFE8DD00491EE5 /* UIImage+MonoImage.m in Sources */,
 				9443A2661ADFE8BF00491EE5 /* LSBackgroundView.m in Sources */,
 				9443A2711AE0039200491EE5 /* CinemaManagerViewController.swift in Sources */,
 				9443A2611ADFE8BF00491EE5 /* LSRoundButton.m in Sources */,
+				9443A2881AE3DD8700491EE5 /* RoundCornerView.swift in Sources */,
 				9443A2461ADFE3AA00491EE5 /* LSIBANBLZFormatter.m in Sources */,
 				9443A26C1ADFE8F200491EE5 /* UIColor+IBANColors.m in Sources */,
 				9443A2641ADFE8BF00491EE5 /* LSRoundDevidedButton.m in Sources */,

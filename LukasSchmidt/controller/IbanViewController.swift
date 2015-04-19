@@ -9,7 +9,7 @@
 import UIKit
 import StoreKit
 
-class IbanViewController: UIViewController {
+class IbanViewController: UIViewController,SKStoreProductViewControllerDelegate {
     
     let ibanCalculator = MSIbanCalculator(widthCountryCodeManager: LSCountryCodeManager())
 
@@ -52,8 +52,13 @@ class IbanViewController: UIViewController {
     }
     @IBAction func showInAppStore(sender: AnyObject) {
        let productViewController = SKStoreProductViewController()
-        productViewController.loadProductWithParameters([SKStoreProductParameterITunesItemIdentifier: NSNumber()], completionBlock: didLoadStoreKitProcut)
+        productViewController.delegate = self;
+        productViewController.loadProductWithParameters([SKStoreProductParameterITunesItemIdentifier: NSNumber(integer: 882254188)], completionBlock: didLoadStoreKitProcut)
         presentViewController(productViewController, animated: true, completion: nil)
+    }
+    
+    func productViewControllerDidFinish(viewController: SKStoreProductViewController!) {
+        
     }
     
     func didLoadStoreKitProcut(success:Bool, error:NSError!) {
