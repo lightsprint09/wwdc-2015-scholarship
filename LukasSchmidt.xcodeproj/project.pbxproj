@@ -51,6 +51,8 @@
 		94D1A6531AE5327E00B91996 /* LSCoverImageLoaderImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1A6501AE5327E00B91996 /* LSCoverImageLoaderImpl.m */; };
 		94D1A6541AE5327E00B91996 /* LSLoginServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1A6521AE5327E00B91996 /* LSLoginServiceImpl.m */; };
 		94D1A6561AE5374200B91996 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D1A6551AE5374200B91996 /* MovieCollectionViewCell.swift */; };
+		94D1A6591AE59E2900B91996 /* glyphicons_008_film.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D1A6571AE59E2900B91996 /* glyphicons_008_film.png */; };
+		94D1A65A1AE59E2900B91996 /* glyphicons_008_film@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D1A6581AE59E2900B91996 /* glyphicons_008_film@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +136,8 @@
 		94D1A6511AE5327E00B91996 /* LSLoginServiceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLoginServiceImpl.h; sourceTree = "<group>"; };
 		94D1A6521AE5327E00B91996 /* LSLoginServiceImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLoginServiceImpl.m; sourceTree = "<group>"; };
 		94D1A6551AE5374200B91996 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieCollectionViewCell.swift; path = view/MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		94D1A6571AE59E2900B91996 /* glyphicons_008_film.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_008_film.png; sourceTree = "<group>"; };
+		94D1A6581AE59E2900B91996 /* glyphicons_008_film@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons_008_film@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +225,8 @@
 		9443A2371ADF996A00491EE5 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				94D1A6571AE59E2900B91996 /* glyphicons_008_film.png */,
+				94D1A6581AE59E2900B91996 /* glyphicons_008_film@2x.png */,
 				9443A28F1AE3F88700491EE5 /* personal.png */,
 				9443A28D1AE3E4D300491EE5 /* cinema.png */,
 				9443A28B1AE3E3CE00491EE5 /* ehealth.png */,
@@ -415,6 +421,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94D1A65A1AE59E2900B91996 /* glyphicons_008_film@2x.png in Resources */,
+				94D1A6591AE59E2900B91996 /* glyphicons_008_film.png in Resources */,
 				9443A27D1AE03EC800491EE5 /* icon-ios7-heart@2x.png in Resources */,
 				9443A24C1ADFE3EE00491EE5 /* blz_bic_list.plist in Resources */,
 				9443A21D1ADF90A900491EE5 /* Main.storyboard in Resources */,

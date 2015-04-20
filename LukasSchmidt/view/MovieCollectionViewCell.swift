@@ -22,5 +22,6 @@ class MovieCollectionViewCell: UICollectionViewCell {
     
     func setImageData(data:NSData) {
         coverImageView.image = UIImage(data: data);
+        coverImageView.contentMode = UIViewContentMode.ScaleAspectFill
     }
 }
