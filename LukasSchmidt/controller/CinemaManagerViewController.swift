@@ -9,7 +9,9 @@
 import UIKit
 
 class CinemaManagerViewController: UIViewController, UICollectionViewDataSource {
-
+    let loginService:LSLoginService = LSLoginServiceImpl()
+    let moviePlaytimeSerice: LSMoviePlaytimeDownloader = LSMoviePlaytimeDownloaderImpl()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -38,6 +40,23 @@ class CinemaManagerViewController: UIViewController, UICollectionViewDataSource 
     @IBAction func dismissController(sender: AnyObject) {
         presentingViewController?.dismissViewControllerAnimated(true, completion: nil)
     }
+    
+    func login() {
+        
+        //loginService.loginWithUsername("lightsprint09", andPassword: "1234", withCompletionHandler: didLogin)
+    }
+    
+    func didLogin(success:Bool, error:NSError) {
+        if success == true {
+            moviePlaytimeSerice.loadMoviePlaytimeListFromCinemaWithID(1, withBlock: nil)
+        }
+    }
+    
+    func didLoadMovies(movies:Array<Dictionary<String, AnyObject>>, error:NSError) {
+        println(movies)
+    }
+    
+    
     
 
     /*

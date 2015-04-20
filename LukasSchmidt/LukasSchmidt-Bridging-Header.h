@@ -4,3 +4,6 @@
 
 #import "MSIbanCalculator.h"
 #import "LSCountryCodeManager.h"
+#import "LSCoverImageLoaderImpl.h"
+#import "LSLoginServiceImpl.h"
+#import "LSMoviePlaytimeDownloaderImpl.h"

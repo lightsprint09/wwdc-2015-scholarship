@@ -45,6 +45,11 @@
 		9443A28C1AE3E3CE00491EE5 /* ehealth.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A28B1AE3E3CE00491EE5 /* ehealth.png */; };
 		9443A28E1AE3E4D300491EE5 /* cinema.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A28D1AE3E4D300491EE5 /* cinema.png */; };
 		9443A2901AE3F88700491EE5 /* personal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A28F1AE3F88700491EE5 /* personal.png */; };
+		94D1A6441AE5315F00B91996 /* WTConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1A6411AE5315F00B91996 /* WTConnection.m */; };
+		94D1A6451AE5315F00B91996 /* LSMoviePlaytimeDownloaderImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1A6431AE5315F00B91996 /* LSMoviePlaytimeDownloaderImpl.m */; };
+		94D1A64E1AE5322100B91996 /* LSURLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1A64D1AE5322100B91996 /* LSURLConstants.m */; };
+		94D1A6531AE5327E00B91996 /* LSCoverImageLoaderImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1A6501AE5327E00B91996 /* LSCoverImageLoaderImpl.m */; };
+		94D1A6541AE5327E00B91996 /* LSLoginServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1A6521AE5327E00B91996 /* LSLoginServiceImpl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +118,20 @@
 		9443A28B1AE3E3CE00491EE5 /* ehealth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ehealth.png; sourceTree = "<group>"; };
 		9443A28D1AE3E4D300491EE5 /* cinema.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cinema.png; sourceTree = "<group>"; };
 		9443A28F1AE3F88700491EE5 /* personal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personal.png; sourceTree = "<group>"; };
+		94D1A6401AE5315F00B91996 /* WTConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTConnection.h; sourceTree = "<group>"; };
+		94D1A6411AE5315F00B91996 /* WTConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTConnection.m; sourceTree = "<group>"; };
+		94D1A6421AE5315F00B91996 /* LSMoviePlaytimeDownloaderImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSMoviePlaytimeDownloaderImpl.h; sourceTree = "<group>"; };
+		94D1A6431AE5315F00B91996 /* LSMoviePlaytimeDownloaderImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSMoviePlaytimeDownloaderImpl.m; sourceTree = "<group>"; };
+		94D1A6481AE531E100B91996 /* LSMoviePlaytimeDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSMoviePlaytimeDownloader.h; sourceTree = "<group>"; };
+		94D1A6491AE531E100B91996 /* LSCoverImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCoverImageLoader.h; sourceTree = "<group>"; };
+		94D1A64A1AE531E100B91996 /* LSAbsctractDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSAbsctractDownloader.h; sourceTree = "<group>"; };
+		94D1A64B1AE531E100B91996 /* LSLoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLoginService.h; sourceTree = "<group>"; };
+		94D1A64C1AE5322100B91996 /* LSURLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSURLConstants.h; sourceTree = "<group>"; };
+		94D1A64D1AE5322100B91996 /* LSURLConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSURLConstants.m; sourceTree = "<group>"; };
+		94D1A64F1AE5327E00B91996 /* LSCoverImageLoaderImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCoverImageLoaderImpl.h; sourceTree = "<group>"; };
+		94D1A6501AE5327E00B91996 /* LSCoverImageLoaderImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSCoverImageLoaderImpl.m; sourceTree = "<group>"; };
+		94D1A6511AE5327E00B91996 /* LSLoginServiceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLoginServiceImpl.h; sourceTree = "<group>"; };
+		94D1A6521AE5327E00B91996 /* LSLoginServiceImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLoginServiceImpl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,8 +175,8 @@
 		9443A2111ADF90A900491EE5 /* LukasSchmidt */ = {
 			isa = PBXGroup;
 			children = (
+				9443A2911AE5303A00491EE5 /* cinema */,
 				9443A26D1ADFEAA600491EE5 /* view */,
-				9443A2401ADFE2F800491EE5 /* cinema */,
 				9443A23F1ADFE2EF00491EE5 /* iban */,
 				9443A23C1ADFE2AF00491EE5 /* controller */,
 				9443A2141ADF90A900491EE5 /* AppDelegate.swift */,
@@ -244,13 +263,6 @@
 			path = iban;
 			sourceTree = "<group>";
 		};
-		9443A2401ADFE2F800491EE5 /* cinema */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = cinema;
-			sourceTree = "<group>";
-		};
 		9443A2511ADFE8B500491EE5 /* view */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,6 +293,43 @@
 				9443A2871AE3DD8700491EE5 /* RoundCornerView.swift */,
 			);
 			name = view;
+			sourceTree = "<group>";
+		};
+		9443A2911AE5303A00491EE5 /* cinema */ = {
+			isa = PBXGroup;
+			children = (
+				94D1A64C1AE5322100B91996 /* LSURLConstants.h */,
+				94D1A64D1AE5322100B91996 /* LSURLConstants.m */,
+				94D1A6471AE531B800B91996 /* API */,
+				94D1A6461AE5317300B91996 /* service */,
+			);
+			path = cinema;
+			sourceTree = "<group>";
+		};
+		94D1A6461AE5317300B91996 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				94D1A64F1AE5327E00B91996 /* LSCoverImageLoaderImpl.h */,
+				94D1A6501AE5327E00B91996 /* LSCoverImageLoaderImpl.m */,
+				94D1A6511AE5327E00B91996 /* LSLoginServiceImpl.h */,
+				94D1A6521AE5327E00B91996 /* LSLoginServiceImpl.m */,
+				94D1A6401AE5315F00B91996 /* WTConnection.h */,
+				94D1A6411AE5315F00B91996 /* WTConnection.m */,
+				94D1A6421AE5315F00B91996 /* LSMoviePlaytimeDownloaderImpl.h */,
+				94D1A6431AE5315F00B91996 /* LSMoviePlaytimeDownloaderImpl.m */,
+			);
+			name = service;
+			sourceTree = "<group>";
+		};
+		94D1A6471AE531B800B91996 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				94D1A6481AE531E100B91996 /* LSMoviePlaytimeDownloader.h */,
+				94D1A6491AE531E100B91996 /* LSCoverImageLoader.h */,
+				94D1A64A1AE531E100B91996 /* LSAbsctractDownloader.h */,
+				94D1A64B1AE531E100B91996 /* LSLoginService.h */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,7 +454,9 @@
 				9443A2621ADFE8BF00491EE5 /* LSRoundLabel.m in Sources */,
 				9443A2801AE2608D00491EE5 /* PersonalInterestsViewController.swift in Sources */,
 				9443A2631ADFE8BF00491EE5 /* LSRoundTextField.m in Sources */,
+				94D1A6441AE5315F00B91996 /* WTConnection.m in Sources */,
 				9443A2501ADFE50400491EE5 /* LSCountryCodeManager.m in Sources */,
+				94D1A6531AE5327E00B91996 /* LSCoverImageLoaderImpl.m in Sources */,
 				9443A2691ADFE8DD00491EE5 /* UIImage+MonoImage.m in Sources */,
 				9443A2661ADFE8BF00491EE5 /* LSBackgroundView.m in Sources */,
 				9443A2711AE0039200491EE5 /* CinemaManagerViewController.swift in Sources */,
@@ -413,7 +464,10 @@
 				9443A2881AE3DD8700491EE5 /* RoundCornerView.swift in Sources */,
 				9443A2461ADFE3AA00491EE5 /* LSIBANBLZFormatter.m in Sources */,
 				9443A26C1ADFE8F200491EE5 /* UIColor+IBANColors.m in Sources */,
+				94D1A6541AE5327E00B91996 /* LSLoginServiceImpl.m in Sources */,
 				9443A2641ADFE8BF00491EE5 /* LSRoundDevidedButton.m in Sources */,
+				94D1A64E1AE5322100B91996 /* LSURLConstants.m in Sources */,
+				94D1A6451AE5315F00B91996 /* LSMoviePlaytimeDownloaderImpl.m in Sources */,
 				9443A2471ADFE3AA00491EE5 /* MSIbanCalculator.m in Sources */,
 				9443A26F1ADFEAD800491EE5 /* RoundedCornerImageView.swift in Sources */,
 			);
