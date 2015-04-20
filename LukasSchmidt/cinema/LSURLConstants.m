@@ -9,5 +9,5 @@
 #import "LSURLConstants.h"
 
 NSString *const API_URL = @"http://localhost:8888";
-NSString *const IMAGE_URL = @"http://www.img.kinoheld.de/images/film/";
+NSString *const IMAGE_URL = @"http://image.tmdb.org/t/p/w300";
 NSString *const API_SOCKET_SEATS = @"http://localhost:8888";

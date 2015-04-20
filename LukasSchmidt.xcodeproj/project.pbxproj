@@ -50,6 +50,7 @@
 		94D1A64E1AE5322100B91996 /* LSURLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1A64D1AE5322100B91996 /* LSURLConstants.m */; };
 		94D1A6531AE5327E00B91996 /* LSCoverImageLoaderImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1A6501AE5327E00B91996 /* LSCoverImageLoaderImpl.m */; };
 		94D1A6541AE5327E00B91996 /* LSLoginServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1A6521AE5327E00B91996 /* LSLoginServiceImpl.m */; };
+		94D1A6561AE5374200B91996 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D1A6551AE5374200B91996 /* MovieCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +133,7 @@
 		94D1A6501AE5327E00B91996 /* LSCoverImageLoaderImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSCoverImageLoaderImpl.m; sourceTree = "<group>"; };
 		94D1A6511AE5327E00B91996 /* LSLoginServiceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLoginServiceImpl.h; sourceTree = "<group>"; };
 		94D1A6521AE5327E00B91996 /* LSLoginServiceImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLoginServiceImpl.m; sourceTree = "<group>"; };
+		94D1A6551AE5374200B91996 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieCollectionViewCell.swift; path = view/MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,6 +291,7 @@
 		9443A26D1ADFEAA600491EE5 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				94D1A6551AE5374200B91996 /* MovieCollectionViewCell.swift */,
 				9443A26E1ADFEAD800491EE5 /* RoundedCornerImageView.swift */,
 				9443A2871AE3DD8700491EE5 /* RoundCornerView.swift */,
 			);
@@ -463,6 +466,7 @@
 				9443A2611ADFE8BF00491EE5 /* LSRoundButton.m in Sources */,
 				9443A2881AE3DD8700491EE5 /* RoundCornerView.swift in Sources */,
 				9443A2461ADFE3AA00491EE5 /* LSIBANBLZFormatter.m in Sources */,
+				94D1A6561AE5374200B91996 /* MovieCollectionViewCell.swift in Sources */,
 				9443A26C1ADFE8F200491EE5 /* UIColor+IBANColors.m in Sources */,
 				94D1A6541AE5327E00B91996 /* LSLoginServiceImpl.m in Sources */,
 				9443A2641ADFE8BF00491EE5 /* LSRoundDevidedButton.m in Sources */,
