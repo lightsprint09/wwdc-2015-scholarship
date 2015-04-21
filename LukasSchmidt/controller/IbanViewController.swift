@@ -20,8 +20,6 @@ class IbanViewController: UIViewController,SKStoreProductViewControllerDelegate 
     override func viewDidLoad() {
         super.viewDidLoad()
         updateIBAN()
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -58,7 +56,7 @@ class IbanViewController: UIViewController,SKStoreProductViewControllerDelegate 
     }
     
     func productViewControllerDidFinish(viewController: SKStoreProductViewController!) {
-        
+        viewController.presentingViewController?.dismissViewControllerAnimated(true, completion: nil)
     }
     
     func didLoadStoreKitProcut(success:Bool, error:NSError!) {
