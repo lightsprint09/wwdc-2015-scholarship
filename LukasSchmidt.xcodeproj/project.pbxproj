@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9443A2151ADF90A900491EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2141ADF90A900491EE5 /* AppDelegate.swift */; };
-		9443A2181ADF90A900491EE5 /* LukasSchmidt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2161ADF90A900491EE5 /* LukasSchmidt.xcdatamodeld */; };
 		9443A21D1ADF90A900491EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9443A21B1ADF90A900491EE5 /* Main.storyboard */; };
 		9443A21F1ADF90A900491EE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9443A21E1ADF90A900491EE5 /* Images.xcassets */; };
 		9443A2221ADF90A900491EE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2201ADF90A900491EE5 /* LaunchScreen.xib */; };
@@ -33,7 +32,6 @@
 		9443A26F1ADFEAD800491EE5 /* RoundedCornerImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A26E1ADFEAD800491EE5 /* RoundedCornerImageView.swift */; };
 		9443A2711AE0039200491EE5 /* CinemaManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443A2701AE0039200491EE5 /* CinemaManagerViewController.swift */; };
 		9443A2731AE0066200491EE5 /* Kino-App Icon_7-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2721AE0066200491EE5 /* Kino-App Icon_7-01.png */; };
-		9443A2751AE0119700491EE5 /* 11-Toy-Story.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2741AE0119700491EE5 /* 11-Toy-Story.jpg */; };
 		9443A2781AE02B8D00491EE5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9443A2761AE02B5800491EE5 /* StoreKit.framework */; };
 		9443A27C1AE03EC800491EE5 /* icon-ios7-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A2791AE03EC800491EE5 /* icon-ios7-heart.png */; };
 		9443A27D1AE03EC800491EE5 /* icon-ios7-heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A27A1AE03EC800491EE5 /* icon-ios7-heart@2x.png */; };
@@ -45,6 +43,8 @@
 		9443A28C1AE3E3CE00491EE5 /* ehealth.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A28B1AE3E3CE00491EE5 /* ehealth.png */; };
 		9443A28E1AE3E4D300491EE5 /* cinema.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A28D1AE3E4D300491EE5 /* cinema.png */; };
 		9443A2901AE3F88700491EE5 /* personal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9443A28F1AE3F88700491EE5 /* personal.png */; };
+		94656AAB1AE692AE00EDAE1C /* ThanksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94656AAA1AE692AE00EDAE1C /* ThanksViewController.swift */; };
+		94656AAD1AE699F400EDAE1C /* persona.png in Resources */ = {isa = PBXBuildFile; fileRef = 94656AAC1AE699F400EDAE1C /* persona.png */; };
 		948C4F011AE660940085D7F9 /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 948C4F001AE660940085D7F9 /* me.jpg */; };
 		948C4F041AE660DE0085D7F9 /* LSProfileImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 948C4F031AE660DE0085D7F9 /* LSProfileImageView.m */; };
 		948C4F061AE66FDB0085D7F9 /* child.png in Resources */ = {isa = PBXBuildFile; fileRef = 948C4F051AE66FDB0085D7F9 /* child.png */; };
@@ -76,7 +76,6 @@
 		9443A20F1ADF90A900491EE5 /* LukasSchmidt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LukasSchmidt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9443A2131ADF90A900491EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9443A2141ADF90A900491EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9443A2171ADF90A900491EE5 /* LukasSchmidt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LukasSchmidt.xcdatamodel; sourceTree = "<group>"; };
 		9443A21C1ADF90A900491EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9443A21E1ADF90A900491EE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9443A2211ADF90A900491EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -116,7 +115,6 @@
 		9443A26E1ADFEAD800491EE5 /* RoundedCornerImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundedCornerImageView.swift; path = view/RoundedCornerImageView.swift; sourceTree = "<group>"; };
 		9443A2701AE0039200491EE5 /* CinemaManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemaManagerViewController.swift; sourceTree = "<group>"; };
 		9443A2721AE0066200491EE5 /* Kino-App Icon_7-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kino-App Icon_7-01.png"; sourceTree = "<group>"; };
-		9443A2741AE0119700491EE5 /* 11-Toy-Story.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11-Toy-Story.jpg"; sourceTree = "<group>"; };
 		9443A2761AE02B5800491EE5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		9443A2791AE03EC800491EE5 /* icon-ios7-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-heart.png"; sourceTree = "<group>"; };
 		9443A27A1AE03EC800491EE5 /* icon-ios7-heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-heart@2x.png"; sourceTree = "<group>"; };
@@ -128,6 +126,8 @@
 		9443A28B1AE3E3CE00491EE5 /* ehealth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ehealth.png; sourceTree = "<group>"; };
 		9443A28D1AE3E4D300491EE5 /* cinema.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cinema.png; sourceTree = "<group>"; };
 		9443A28F1AE3F88700491EE5 /* personal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personal.png; sourceTree = "<group>"; };
+		94656AAA1AE692AE00EDAE1C /* ThanksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThanksViewController.swift; sourceTree = "<group>"; };
+		94656AAC1AE699F400EDAE1C /* persona.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = persona.png; sourceTree = "<group>"; };
 		948C4F001AE660940085D7F9 /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me.jpg; sourceTree = "<group>"; };
 		948C4F021AE660DE0085D7F9 /* LSProfileImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSProfileImageView.h; sourceTree = "<group>"; };
 		948C4F031AE660DE0085D7F9 /* LSProfileImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSProfileImageView.m; sourceTree = "<group>"; };
@@ -206,7 +206,6 @@
 				9443A21B1ADF90A900491EE5 /* Main.storyboard */,
 				9443A21E1ADF90A900491EE5 /* Images.xcassets */,
 				9443A2201ADF90A900491EE5 /* LaunchScreen.xib */,
-				9443A2161ADF90A900491EE5 /* LukasSchmidt.xcdatamodeld */,
 				9443A2121ADF90A900491EE5 /* Supporting Files */,
 			);
 			path = LukasSchmidt;
@@ -242,6 +241,7 @@
 		9443A2371ADF996A00491EE5 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				94656AAC1AE699F400EDAE1C /* persona.png */,
 				948C4F091AE673490085D7F9 /* location.png */,
 				948C4F071AE672350085D7F9 /* education.png */,
 				948C4F051AE66FDB0085D7F9 /* child.png */,
@@ -256,7 +256,6 @@
 				9443A2791AE03EC800491EE5 /* icon-ios7-heart.png */,
 				9443A27A1AE03EC800491EE5 /* icon-ios7-heart@2x.png */,
 				9443A27B1AE03EC800491EE5 /* icon-ios7-heart@3x.png */,
-				9443A2741AE0119700491EE5 /* 11-Toy-Story.jpg */,
 				9443A23A1ADF9B4D00491EE5 /* Icon 1024px.png */,
 				9443A2721AE0066200491EE5 /* Kino-App Icon_7-01.png */,
 			);
@@ -266,6 +265,7 @@
 		9443A23C1ADFE2AF00491EE5 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				94656AAA1AE692AE00EDAE1C /* ThanksViewController.swift */,
 				9443A27F1AE2608D00491EE5 /* PersonalInterestsViewController.swift */,
 				9443A2701AE0039200491EE5 /* CinemaManagerViewController.swift */,
 				9443A23D1ADFE2D900491EE5 /* IbanViewController.swift */,
@@ -451,6 +451,7 @@
 				9443A27D1AE03EC800491EE5 /* icon-ios7-heart@2x.png in Resources */,
 				948C4F061AE66FDB0085D7F9 /* child.png in Resources */,
 				9443A24C1ADFE3EE00491EE5 /* blz_bic_list.plist in Resources */,
+				94656AAD1AE699F400EDAE1C /* persona.png in Resources */,
 				9443A21D1ADF90A900491EE5 /* Main.storyboard in Resources */,
 				9443A2221ADF90A900491EE5 /* LaunchScreen.xib in Resources */,
 				9443A21F1ADF90A900491EE5 /* Images.xcassets in Resources */,
@@ -467,7 +468,6 @@
 				9443A24D1ADFE3EE00491EE5 /* CountryCodes.plist in Resources */,
 				9443A23B1ADF9B4D00491EE5 /* Icon 1024px.png in Resources */,
 				948C4F011AE660940085D7F9 /* me.jpg in Resources */,
-				9443A2751AE0119700491EE5 /* 11-Toy-Story.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,7 +489,6 @@
 				9443A23E1ADFE2D900491EE5 /* IbanViewController.swift in Sources */,
 				9443A2151ADF90A900491EE5 /* AppDelegate.swift in Sources */,
 				9443A2651ADFE8BF00491EE5 /* LSIBANRoundDevidedButton.m in Sources */,
-				9443A2181ADF90A900491EE5 /* LukasSchmidt.xcdatamodeld in Sources */,
 				948C4F041AE660DE0085D7F9 /* LSProfileImageView.m in Sources */,
 				9443A2621ADFE8BF00491EE5 /* LSRoundLabel.m in Sources */,
 				9443A2801AE2608D00491EE5 /* PersonalInterestsViewController.swift in Sources */,
@@ -498,6 +497,7 @@
 				9443A2501ADFE50400491EE5 /* LSCountryCodeManager.m in Sources */,
 				94D1A6531AE5327E00B91996 /* LSCoverImageLoaderImpl.m in Sources */,
 				9443A2691ADFE8DD00491EE5 /* UIImage+MonoImage.m in Sources */,
+				94656AAB1AE692AE00EDAE1C /* ThanksViewController.swift in Sources */,
 				9443A2661ADFE8BF00491EE5 /* LSBackgroundView.m in Sources */,
 				9443A2711AE0039200491EE5 /* CinemaManagerViewController.swift in Sources */,
 				9443A2611ADFE8BF00491EE5 /* LSRoundButton.m in Sources */,
@@ -728,19 +728,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		9443A2161ADF90A900491EE5 /* LukasSchmidt.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				9443A2171ADF90A900491EE5 /* LukasSchmidt.xcdatamodel */,
-			);
-			currentVersion = 9443A2171ADF90A900491EE5 /* LukasSchmidt.xcdatamodel */;
-			path = LukasSchmidt.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 9443A2071ADF90A900491EE5 /* Project object */;
 }

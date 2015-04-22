@@ -108,7 +108,7 @@
 {
     character = [character uppercaseString];
     NSArray *array = @[@"A",@"B",@"C",@"D",@"E",@"F",@"G",@"H",@"I",@"J",@"K",@"L",@"M",@"N",@"O",@"P",@"Q",@"R",@"S",@"T",@"U",@"V",@"W",@"X",@"Y",@"Z"];
-    return [NSString stringWithFormat:@"%u", [array indexOfObject:character] + 10];
+    return [NSString stringWithFormat:@"%lu", [array indexOfObject:character] + 10];
 }
 
 - (NSString *)numberFromCountryCode:(NSString *)countryCode

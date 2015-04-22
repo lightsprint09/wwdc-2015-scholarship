@@ -20,7 +20,7 @@ class PersonaViewController: UIViewController, MKMapViewDelegate {
     func setupMapView() {
         mapView.layer.cornerRadius = 8;
         let coordinate = CLLocationCoordinate2D(latitude: 49.353560, longitude: 9.139340)
-        let region = MKCoordinateRegionMakeWithDistance(coordinate, 1300, 2000)
+        let region = MKCoordinateRegionMakeWithDistance(coordinate, 1400, 2000)
         mapView.setRegion(region, animated: true)
         
         let annotation = MKPointAnnotation()
