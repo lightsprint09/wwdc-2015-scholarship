@@ -10,15 +10,10 @@ import UIKit
 
 class PersonalInterestsViewController: UIViewController {
     @IBOutlet weak var textView: UITextView!
-    let text = ["sport": "", "ehealth": "In the summer of 2012 I started studying Medical Informatics at the university of Heidelberg. It is fun to learn so much new in a short period of time. I learned a lot about programming and felt confinement enough to lern Objective - C. I had to learn it on my own because we haven ´t any Macs at our campus.\n\nMaking software for medical use is hard because it could affect the life of other humans. We constantly think about how technology can improve medical systems and consumer healthcare. I like being part of this.", "code": "I care deeply in crafting creat software. But for me as an software engineer the look and feel of the software is just as important as reducing complexity, removing redundant code and getting better test coverage. "];
+    let text = ["sport": "At the age of 8 I started to do athletics. It helped me to push the limits of my body and to learn how to control every part of my body. In the past 2 years I started doing a lot of pole vaulting.\nWhen doing sport I forget all about objects and databases. After an hour of sports my mind is open for new ideas and thoughts.", "ehealth": "In the summer of 2012 I started studying Medical Informatics at the university of Heidelberg. It is fun to learn so much new in a short period of time. I learned a lot about programming and felt confinement enough to lern Objective - C. I had to learn it on my own because we haven ´t any Macs at our campus.\n\nMaking software for medical use is hard because it could affect the life of humans. We constantly think about how technology can improve medical systems and consumer healthcare. I like being part of this.", "code": "I care deeply in crafting great software. But for me as a software engineer the look and feel of the software is just as important as reducing complexity, removing redundant code and getting better test coverage. Developing software is a lot of fun because you can do all thinks you can imagine.", "movie": "I visit the cinema a lot to enjoy great movies with friends. Anoyed by the bad software solution our local cinema uses, me and my friends tried to build up an own solution. It is hard but at the end we want to get a solution which is fun to use for customers and cinema employees."];
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     @IBAction func dismissController(sender: AnyObject) {

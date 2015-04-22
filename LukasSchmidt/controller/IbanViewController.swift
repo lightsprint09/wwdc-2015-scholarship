@@ -15,16 +15,11 @@ class IbanViewController: UIViewController,SKStoreProductViewControllerDelegate 
 
     @IBOutlet weak var accountNumberTextField: UITextField!
     @IBOutlet weak var bankCodeTextField: UITextField!
-    
     @IBOutlet weak var ibanLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateIBAN()
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     @IBAction func dismissController(sender: AnyObject) {
@@ -36,7 +31,7 @@ class IbanViewController: UIViewController,SKStoreProductViewControllerDelegate 
     }
 
     @IBAction func onBankCodeChange(sender: UITextField) {
-        ibanCalculator.blz = sender.text;
+        ibanCalculator.blz = sender.text
         updateIBAN()
     }
     
@@ -50,7 +45,7 @@ class IbanViewController: UIViewController,SKStoreProductViewControllerDelegate 
     }
     @IBAction func showInAppStore(sender: AnyObject) {
        let productViewController = SKStoreProductViewController()
-        productViewController.delegate = self;
+        productViewController.delegate = self
         productViewController.loadProductWithParameters([SKStoreProductParameterITunesItemIdentifier: NSNumber(integer: 882254188)], completionBlock: didLoadStoreKitProcut)
         presentViewController(productViewController, animated: true, completion: nil)
     }

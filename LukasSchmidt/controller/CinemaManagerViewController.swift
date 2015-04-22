@@ -13,16 +13,15 @@ class CinemaManagerViewController: UIViewController, UICollectionViewDataSource 
     let moviePlaytimeSerice: LSMoviePlaytimeDownloader = LSMoviePlaytimeDownloaderImpl()
     let coverImageLoader: LSCoverImageLoader = LSCoverImageLoaderImpl()
     var movies:NSArray?
+    let imageCache = NSMutableDictionary();
     
     @IBOutlet weak var movieCollectionView: UICollectionView!
+    @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var loadingLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         login()
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        hideLoading(false)
     }
     
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
@@ -31,9 +30,9 @@ class CinemaManagerViewController: UIViewController, UICollectionViewDataSource 
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if let movies = self.movies {
-            return movies.count;
+            return movies.count
         }
-        return 0;
+        return 0
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
@@ -49,9 +48,14 @@ class CinemaManagerViewController: UIViewController, UICollectionViewDataSource 
     
     func loadCover(cell:MovieCollectionViewCell, movie:NSDictionary) {
         let url = NSURL(string: IMAGE_URL + (movie.valueForKey("coverimageurl") as! String))
-        println(url)
+        let urlString = url?.absoluteString
+        if let imageData = imageCache.valueForKey(urlString!) as? NSData {
+            return cell.setImageData(imageData)
+        }
+        
         coverImageLoader.downloadMovieCoverImageWithURL(url, didFinishLodingImage: {imageData, error in
             dispatch_async(dispatch_get_main_queue()) {
+                self.imageCache.setValue(imageData, forKey: urlString!)
                 cell.setImageData(imageData)
             }
         })
@@ -69,6 +73,7 @@ class CinemaManagerViewController: UIViewController, UICollectionViewDataSource 
         if success == true {
             moviePlaytimeSerice.loadMoviePlaytimeListFromCinemaWithID(1, withBlock: {movies, error in
                 dispatch_async(dispatch_get_main_queue()) {
+                    self.hideLoading(true)
                     self.didLoadMovies(movies, error: error)
                 }
             })
@@ -78,5 +83,10 @@ class CinemaManagerViewController: UIViewController, UICollectionViewDataSource 
     func didLoadMovies(movies:NSArray!, error:NSError!) {
         self.movies = movies
         movieCollectionView.reloadData()
+    }
+    
+    func hideLoading(hide:Bool) {
+        loadingIndicator.hidden = hide
+        loadingLabel.hidden = hide;
     }
 }

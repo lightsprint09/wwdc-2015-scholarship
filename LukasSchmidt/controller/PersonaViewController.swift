@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class PersonaViewController: UIViewController, MKMapViewDelegate {
+class PersonaViewController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
 
     override func viewDidLoad() {
@@ -30,12 +30,6 @@ class PersonaViewController: UIViewController, MKMapViewDelegate {
         mapView.addAnnotation(annotation)
         mapView.selectAnnotation(annotation, animated: true)
         
-    }
-    
-    func mapView(mapView: MKMapView!, viewForAnnotation annotation: MKAnnotation!) -> MKAnnotationView! {
-        let annotationView = mapView.dequeueReusableAnnotationViewWithIdentifier("homeLocation")
-        
-        return annotationView;
     }
     
     @IBAction func dismissController(sender: AnyObject) {

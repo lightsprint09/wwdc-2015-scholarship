@@ -23,10 +23,6 @@
     [self performDataTaskWithWithULR:url
                   HTTPHRequestMethod:@"POST"
                         withHTTPBody:postData withCompletionHandler:^(NSData *data, NSURLResponse *response, NSError *error){
-//                            NSHTTPURLResponse *httpResp = (NSHTTPURLResponse*) response;
-//                            
-//                            NSArray *cookies = [NSHTTPCookie cookiesWithResponseHeaderFields:[httpResp allHeaderFields] forURL:[response URL]];
-//                            [[NSHTTPCookieStorage sharedHTTPCookieStorage] setCookies:cookies forURL:[response URL] mainDocumentURL:nil];
                             NSDictionary *login = [self parseJSONDataToDictonary:data];
                             NSNumber *isLoggedIn = [login valueForKey:@"loggedIn"];
                             didLogin(isLoggedIn.boolValue, error);
