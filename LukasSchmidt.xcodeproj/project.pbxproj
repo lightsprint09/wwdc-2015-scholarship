@@ -69,6 +69,8 @@
 		94D2E77E1AEB945E00293532 /* glyphicons-44-group.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D2E77B1AEB945E00293532 /* glyphicons-44-group.png */; };
 		94D2E77F1AEB945E00293532 /* glyphicons-44-group@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D2E77C1AEB945E00293532 /* glyphicons-44-group@2x.png */; };
 		94D2E7801AEB945E00293532 /* glyphicons-44-group@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D2E77D1AEB945E00293532 /* glyphicons-44-group@3x.png */; };
+		94D2E7821AEBBBC800293532 /* IMG_0319.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94D2E7811AEBBBC800293532 /* IMG_0319.jpg */; };
+		94D2E7841AEBBDDE00293532 /* RoundVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D2E7831AEBBDDE00293532 /* RoundVisualEffectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -171,6 +173,8 @@
 		94D2E77B1AEB945E00293532 /* glyphicons-44-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-44-group.png"; sourceTree = "<group>"; };
 		94D2E77C1AEB945E00293532 /* glyphicons-44-group@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-44-group@2x.png"; sourceTree = "<group>"; };
 		94D2E77D1AEB945E00293532 /* glyphicons-44-group@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-44-group@3x.png"; sourceTree = "<group>"; };
+		94D2E7811AEBBBC800293532 /* IMG_0319.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0319.jpg; path = ../IMG_0319.jpg; sourceTree = "<group>"; };
+		94D2E7831AEBBDDE00293532 /* RoundVisualEffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundVisualEffectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +263,7 @@
 		9443A2371ADF996A00491EE5 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				94D2E7811AEBBBC800293532 /* IMG_0319.jpg */,
 				94D2E77B1AEB945E00293532 /* glyphicons-44-group.png */,
 				94D2E77C1AEB945E00293532 /* glyphicons-44-group@2x.png */,
 				94D2E77D1AEB945E00293532 /* glyphicons-44-group@3x.png */,
@@ -346,6 +351,7 @@
 		9443A26D1ADFEAA600491EE5 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				94D2E7831AEBBDDE00293532 /* RoundVisualEffectView.swift */,
 				948C4F021AE660DE0085D7F9 /* LSProfileImageView.h */,
 				948C4F031AE660DE0085D7F9 /* LSProfileImageView.m */,
 				94D1A6551AE5374200B91996 /* MovieCollectionViewCell.swift */,
@@ -497,6 +503,7 @@
 				9443A28E1AE3E4D300491EE5 /* cinema.png in Resources */,
 				9443A2731AE0066200491EE5 /* Kino-App Icon_7-01.png in Resources */,
 				9443A2901AE3F88700491EE5 /* personal.png in Resources */,
+				94D2E7821AEBBBC800293532 /* IMG_0319.jpg in Resources */,
 				94D2E76C1AE9A96E00293532 /* iTunesArtwork@2x.png in Resources */,
 				94D2E7801AEB945E00293532 /* glyphicons-44-group@3x.png in Resources */,
 				94D2E7721AEB924300293532 /* glyphicons-5-girl.png in Resources */,
@@ -543,6 +550,7 @@
 				94D1A6561AE5374200B91996 /* MovieCollectionViewCell.swift in Sources */,
 				9443A26C1ADFE8F200491EE5 /* UIColor+IBANColors.m in Sources */,
 				94D1A6541AE5327E00B91996 /* LSLoginServiceImpl.m in Sources */,
+				94D2E7841AEBBDDE00293532 /* RoundVisualEffectView.swift in Sources */,
 				9443A2641ADFE8BF00491EE5 /* LSRoundDevidedButton.m in Sources */,
 				94D1A64E1AE5322100B91996 /* LSURLConstants.m in Sources */,
 				94D1A6451AE5315F00B91996 /* LSMoviePlaytimeDownloaderImpl.m in Sources */,
