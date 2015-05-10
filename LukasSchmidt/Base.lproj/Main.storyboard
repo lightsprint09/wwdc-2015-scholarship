@@ -492,9 +492,9 @@
                                 <exclude reference="9SS-sp-Yg5"/>
                                 <exclude reference="lDJ-By-8L1"/>
                                 <exclude reference="sFW-vW-0cD"/>
-                                <exclude reference="0Gm-Vx-rCz"/>
                                 <exclude reference="ECc-RA-Prm"/>
                                 <exclude reference="LZH-Mp-nqx"/>
+                                <exclude reference="0Gm-Vx-rCz"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -507,11 +507,11 @@
                                 <include reference="9SS-sp-Yg5"/>
                                 <include reference="lDJ-By-8L1"/>
                                 <include reference="sFW-vW-0cD"/>
+                                <include reference="ECc-RA-Prm"/>
+                                <include reference="LZH-Mp-nqx"/>
                                 <include reference="0Gm-Vx-rCz"/>
                                 <include reference="29o-cf-AzB"/>
                                 <include reference="6hU-Vh-2Il"/>
-                                <include reference="ECc-RA-Prm"/>
-                                <include reference="LZH-Mp-nqx"/>
                                 <include reference="Myk-wT-RSO"/>
                             </mask>
                         </variation>
@@ -720,10 +720,10 @@
                                     </mask>
                                 </variation>
                             </visualEffectView>
-                            <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rJQ-6I-XOS" customClass="LSBackgroundView">
+                            <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rJQ-6I-XOS" customClass="LSBackgroundView">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="352"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="bank code" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="fzq-c6-EDu" userLabel="bankCodeTextField" customClass="LSRoundTextField">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="bank code" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="fzq-c6-EDu" userLabel="bankCodeTextField" customClass="LSRoundTextField">
                                         <rect key="frame" x="21" y="109" width="511" height="44"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <constraints>
@@ -735,7 +735,7 @@
                                             <action selector="onBankCodeChange:" destination="Qd1-3K-4Hx" eventType="editingChanged" id="pVK-CR-2cE"/>
                                         </connections>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="account number" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8iO-oc-Epi" userLabel="accountNumberTextField" customClass="LSRoundTextField">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="account number" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8iO-oc-Epi" userLabel="accountNumberTextField" customClass="LSRoundTextField">
                                         <rect key="frame" x="21" y="44" width="511" height="44"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <constraints>
@@ -757,7 +757,7 @@
                                             <rect key="frame" x="97" y="68" width="0.0" height="0.0"/>
                                         </variation>
                                     </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="IBAN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sw1-xE-5a9" userLabel="ibanTitle">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="IBAN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sw1-xE-5a9" userLabel="ibanTitle">
                                         <rect key="frame" x="14" y="198" width="52" height="23"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="52" id="3su-9C-io4"/>
@@ -790,7 +790,7 @@
                                             </mask>
                                         </variation>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kp-mH-eMB" customClass="LSSettingsButton">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kp-mH-eMB" customClass="LSSettingsButton">
                                         <rect key="frame" x="548" y="44" width="44" height="44"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -804,7 +804,7 @@
                                             <color key="titleColor" red="0.83137254900000002" green="0.1137254902" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3N-5B-GnG" customClass="LSRoundButton">
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3N-5B-GnG" customClass="LSRoundButton">
                                         <rect key="frame" x="548" y="109" width="44" height="44"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -1715,24 +1715,24 @@
                                 <exclude reference="azF-q7-KYN"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="NgI-Ko-DmI"/>
-                                <exclude reference="q9y-SA-Ndu"/>
-                                <exclude reference="1sH-4W-2b1"/>
-                                <exclude reference="5c0-l9-PZI"/>
                                 <exclude reference="IYC-Qe-e7t"/>
                                 <exclude reference="tSK-CX-zOD"/>
                                 <exclude reference="89z-2t-Uw8"/>
                                 <exclude reference="xl9-xs-jQx"/>
-                                <exclude reference="Uj4-8u-ePk"/>
-                                <exclude reference="iC2-Oe-mxK"/>
-                                <exclude reference="Jgi-o3-qFS"/>
-                                <exclude reference="O2R-Hd-u98"/>
                                 <exclude reference="SvF-Am-xzr"/>
                                 <exclude reference="zb5-bn-YHB"/>
-                                <exclude reference="KoE-zg-yhb"/>
-                                <exclude reference="qO9-hR-R9f"/>
                                 <exclude reference="OMv-Z3-XCK"/>
                                 <exclude reference="y7O-sQ-f9l"/>
+                                <exclude reference="NgI-Ko-DmI"/>
+                                <exclude reference="q9y-SA-Ndu"/>
+                                <exclude reference="Uj4-8u-ePk"/>
+                                <exclude reference="iC2-Oe-mxK"/>
+                                <exclude reference="1sH-4W-2b1"/>
+                                <exclude reference="5c0-l9-PZI"/>
+                                <exclude reference="Jgi-o3-qFS"/>
+                                <exclude reference="O2R-Hd-u98"/>
+                                <exclude reference="KoE-zg-yhb"/>
+                                <exclude reference="qO9-hR-R9f"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -1748,24 +1748,24 @@
                                 <include reference="azF-q7-KYN"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="NgI-Ko-DmI"/>
-                                <include reference="q9y-SA-Ndu"/>
-                                <include reference="1sH-4W-2b1"/>
-                                <include reference="5c0-l9-PZI"/>
                                 <include reference="IYC-Qe-e7t"/>
                                 <include reference="tSK-CX-zOD"/>
                                 <include reference="89z-2t-Uw8"/>
                                 <include reference="xl9-xs-jQx"/>
-                                <include reference="Uj4-8u-ePk"/>
-                                <include reference="iC2-Oe-mxK"/>
-                                <include reference="Jgi-o3-qFS"/>
-                                <include reference="O2R-Hd-u98"/>
                                 <include reference="SvF-Am-xzr"/>
                                 <include reference="zb5-bn-YHB"/>
-                                <include reference="KoE-zg-yhb"/>
-                                <include reference="qO9-hR-R9f"/>
                                 <include reference="OMv-Z3-XCK"/>
                                 <include reference="y7O-sQ-f9l"/>
+                                <include reference="NgI-Ko-DmI"/>
+                                <include reference="q9y-SA-Ndu"/>
+                                <include reference="Uj4-8u-ePk"/>
+                                <include reference="iC2-Oe-mxK"/>
+                                <include reference="1sH-4W-2b1"/>
+                                <include reference="5c0-l9-PZI"/>
+                                <include reference="Jgi-o3-qFS"/>
+                                <include reference="O2R-Hd-u98"/>
+                                <include reference="KoE-zg-yhb"/>
+                                <include reference="qO9-hR-R9f"/>
                             </mask>
                         </variation>
                     </view>
